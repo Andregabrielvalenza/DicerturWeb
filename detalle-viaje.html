@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+	<title>Detalle de viaje progrmado</title>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="assets/css/styles-detalle-viaje.css"/>
+  <link rel="stylesheet" href="assets/css/styles-menu-footer.css"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/amazingslider-1.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amiri" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+</head>
+<body>
+<section>
+  <nav class="navbar navbar-expand-lg navbar-light  py-0 pl-0 pl-md-3 pl-lg-4 pl-xl-5 pr-0 pr-md-3 pr-lg-0" style="box-shadow: 0px 3px 6px #00000029;">
+    <div class="row m-0" style="width: 100%">
+      <div class="col-lg-2 px-xl-0 py-1 py-xl-2 d-flex d-lg-inline">
+        <a class="navbar-brand ml-xl-4" href="#">
+          <img class="ml-xl-4 anchura-logo-menu" src="assets/imagenes/logomenucusco.png">
+        </a>
+         <button class="navbar-toggler active-menu btn-menu-cuadrado py-0 mt-4" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="height: 2.5rem">
+          <span class="navbar-toggler-icon"></span>
+         </button>
+      </div>
+       <div class="col-12 col-lg-10 col-xl-10 px-0">
+          <div class="collapse navbar-collapse  justify-content-end mostrar-menu px-3 py-3 py-lg-0" id="navcol-1" style="height: 100%">
+                    <ul class="nav navbar-nav ocultar-menu dercha-list-externa-menu" >
+                    <li class="nav-item" role="presentation"><a class="nav-link color-letra-menu-exterio" href="#" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dircetur</a>
+                      <div class="dropdown-menu pt-0 bajar-submenu-interior desplique-dicertur-exterior" aria-labelledby="dropdownMenu2">
+                        <div class="color-axul-menu"></div>
+                        <a class="dropdown-item despliagable-font my-1" href="">Sobre DIRCETUR</a>
+                        <div class="color-megro-menu ml-4"></div>
+                        <a class="dropdown-item despliagable-font my-1" href="">Trasparencia institucional</a>
+                        <div class="color-megro-menu ml-4"></div>
+                        <a class="dropdown-item despliagable-font my-1" href="">Portal de transparencia</a>
+                      </div>
+                    </li>
+                    <li class="nav-item ml-lg-2 ml-xl-4" role="presentation"><a class="nav-link color-letra-menu-exterio" href="#" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios turísticos</a>
+                      <div class="dropdown-menu pt-0 desplaigable-servicios-exterior bajar-submenu-interior" aria-labelledby="dropdownMenu2">
+                        <div class="color-axul-menu"></div>
+                        <a class="dropdown-item despliagable-font my-1" href="">Boleto turistico</a>
+                        <div class="color-megro-menu ml-4"></div>
+                        <a class="dropdown-item despliagable-font my-1" href="">Turismo social</a>
+                        <div class="color-megro-menu ml-4"></div>
+                        <a class="dropdown-item despliagable-font my-1" href="">Circuitos turísticos</a>
+                        <div class="color-megro-menu ml-4"></div>
+                        <a class="dropdown-item despliagable-font my-1" href="">Turismo rural-comunitario</a>
+                      </div>
+                    </li>
+                    <li class="nav-item ml-lg-2 ml-xl-4" role="presentation"><a class="nav-link color-letra-menu-exterio" href="#" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lineas de dirección</a>
+                      <div class="dropdown-menu pt-0 desplaigable-lineas-exterio bajar-submenu-interior" aria-labelledby="dropdownMenu2">
+                        <div class="color-axul-menu"></div>
+                        <a class="dropdown-item despliagable-font my-1" href="">Turismo</a>
+                        <div class="color-megro-menu ml-4"></div>
+                        <a class="dropdown-item despliagable-font my-1" href="">Comercio exterior</a>
+                        <div class="color-megro-menu ml-4"></div>
+                        <a class="dropdown-item despliagable-font my-1" href="">Artesania</a>
+                      </div>
+                    </li>
+                    <li class="nav-item ml-lg-2 ml-xl-4" role="presentation"><a class="nav-link color-letra-menu-exterio" href="#"data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Comunicacion</a>
+                      <div class="dropdown-menu pt-0 desplaigable-comunicacion-exterio bajar-submenu-interior" aria-labelledby="dropdownMenu2">
+                        <div class="color-axul-menu"></div>
+                        <a class="dropdown-item despliagable-font my-1" href="">Noticias</a>
+                        <div class="color-megro-menu ml-4"></div>
+                        <a class="dropdown-item despliagable-font my-1" href="">Eventos</a>
+                        <div class="color-megro-menu ml-4"></div>
+                        <a class="dropdown-item despliagable-font my-1" href="">Proyectos especiales</a>
+                      </div></li>
+                    <li class="nav-item ml-lg-2 ml-xl-4" role="presentation"><a class="nav-link color-letra-menu-exterio" href="#">Contacto</a></li>
+                    <li class="nav-item ml-lg-2 ml-xl-4" role="presentation"><a class="nav-link color-letra-menu-exterio" href="#"id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ingresar</a>
+                      <div class="dropdown-menu pt-0 desplaigable-ingresar-exterio bajar-submenu-interior" aria-labelledby="dropdownMenu2">
+                        <div class="color-axul-menu"></div>
+                        <a class="dropdown-item despliagable-font my-1" href="">Proveedores</a>
+                        <div class="color-megro-menu ml-4"></div>
+                        <a class="dropdown-item despliagable-font my-1" href="">Municipalidades</a>
+                      </div></li>
+                    <li class="nav-item py-2 padding-0 ml-lg-2 ml-xl-4" role="presentation">
+                      <input class="mt-1  color-letra-menu-exterio" type="text" name="focus" required class="search-box" placeholder="Busca contenidos en la web…" id="buscador-exterior" style="display: none;" />
+                        <i class="fa fa-search color-letra-menu-exterio px-3" id="icono-btn" style="border-left: 1px solid #8B8B8B;" ></i>
+                    </li>
+                    </ul>
+            </div>
+       </div>
+       <!--<div class="col-xl-3 ocultar-img-menu px-0">
+          <div class="row m-0">
+               <div class="col-6 my-4">
+                       <img src="assets/imagenes/logocusco.png" width="100%">
+               </div>
+               <div class="col-6  my-4 pr-0">
+                 <img src="assets/imagenes/logoportal.png" width="100%">
+               </div>
+           </div>
+        </div>-->
+    </div>
+    </nav>
+</section>
+
+<section>
+  <div class="container-fluid px-0">
+    <div class="row m-0">
+      <div class="col-12 col-xl-4 color-blanco fondo-azul px-sm-5 py-5">
+        <div class="row m-0">
+          <div class="col-12 text-center text-lg-left pt-3 pt-lg-0">
+             <h1 class="titulo-subtitulo-viaje mt-5 mt-lg-0">Este es el nombre de la ruta</h1>
+             <p class="texto-general mt-xl-3 interloineado">Descubre el lugar en el que el arcoíris cayó del cielo para fundirse con el paisaje andino con esta ruta de trekking por Vinicunca, la montaña de los siete colores.</p>
+          </div>
+          <div class="col-12 px-0 mt-sm-4">
+              <div class="row m-0">
+                <div class="col-4 col-sm-2 offset-sm-2 offset-lg-0 col-lg-3">
+                    <p class="altitu-texto weight-grueso letra-font">Donde</p>
+                </div>
+                <div class="col-8 col-sm-6 col-lg-9 px-0">
+                    <p class="altitu-texto weight-delgado interloineado">Comunidad de Chichubamba - Distrito y provincia de Urubamba</p>
+                </div>
+                <div class="col-4 col-sm-2 col-lg-3 offset-sm-2 offset-lg-0">
+                    <p class="altitu-texto weight-grueso letra-font">Altitud</p>
+                </div>
+                <div class="col-8 col-sm-6 col-lg-9 px-0">
+                    <p class="altitu-texto weight-delgado">2,820 m.s.n.m</p>
+                </div>
+                <div class="col-4 col-sm-2 col-lg-3 offset-sm-2 offset-lg-0">
+                    <p class="altitu-texto weight-grueso letra-font">Tags</p>
+                </div>
+                <div class="col-8 col-sm-6 col-lg-9 px-0">
+                    <div class="row m-0">
+                       <div class="col-6 col-sm-4 px-0">
+                          <p class="altitu-texto  mb-0">Naturaleza</p>
+                       </div>
+                       <div class="col-6 col-sm-4 px-0">
+                          <p class="altitu-texto  mb-0">Caminata</p>
+                       </div>
+                       <div class="col-6 col-sm-4 px-0">
+                          <p class="altitu-texto  mb-0">Apicultura</p>
+                       </div>
+                       <div class="col-6 col-sm-4 px-0">
+                          <p class="altitu-texto  mb-0">Ceramica</p>
+                       </div>
+                       <div class="col-6 col-sm-5 px-0">
+                          <p class="altitu-texto  mb-0">Crianza de cuy</p>
+                       </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-12 col-xl-8 px-0">
+        <div id="amazingslider-wrapper-1" style="display:block;position:relative;width: 100%;">
+        <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="assets/imagenes/29001.jpeg" alt="29001"/>
+                </li>
+                <li><img src="assets/imagenes/29002.jpg" alt="viaje-img2"/>
+                </li>
+                <li><img src="assets/imagenes/29003.jpg" alt="viaje-img3"/>
+                </li>
+                <li><img src="assets/imagenes/29004.jpg" alt="viaje-img4"/>
+                </li>
+                <li><img src="assets/imagenes/29005.jpg" alt="viaje-img5"/>
+                </li>
+                <li><img src="assets/imagenes/29005.jpg" alt="viaje-img6"/>
+                </li>
+                <li><img src="assets/imagenes/29005.jpg" alt="viaje-img7"/>
+                </li>
+            </ul>
+            <ul class="amazingslider-thumbnails" style="display:none;">
+                <li><img src="assets/imagenes/29001.jpeg"alt="viaje-img1"/></li>
+                <li><img src="assets/imagenes/29002.jpg" alt="viaje-img2"/></li>
+                <li><img src="assets/imagenes/29003.jpg" alt="viaje-img3"/></li>
+                <li><img src="assets/imagenes/29004.jpg" alt="viaje-img4"/></li>
+                <li><img src="assets/imagenes/29005.jpg" alt="viaje-img5"/></li>
+                <li><img src="assets/imagenes/29005.jpg" alt="viaje-img6"/></li>
+                <li><img src="assets/imagenes/29005.jpg" alt="viaje-img7"/></li>
+            </ul>
+        </div>
+    </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="fondo-detalle">
+  <div class="container-fluid pl-0 pr-0 pr-md-3 py-5">
+    <div class="row m-0">
+      <div class="col-12 col-md-8 col-lg-9 px-0 mt-5 mt-xl-0">
+        <div class="row m-0">
+          <div class="col-12 px-sm-5 text-center text-md-left">
+            <h2 class="subtitulo-intenerario">Itinerario</h2>
+            <p class="color-81 texto-general my-4">A las 4:00 horas pasaremos a recogeros por vuestro hotel de Cusco para dirigirnos hacia el distrito de Cusipata, donde llegaremos después de dos horas y media de recorrido. Una vez en Cusipata, disfrutaremos de un rico desayuno de tipo buffet que nos dará la energía necesaria para afrontar el trekking por la Montaña Arcoíris.<br><br>Una vez saciados, saldremos del restaurante hacia la zona de Wasipata, a la que llegaremos tras una hora de camino. ¡Será entonces cuando iniciaremos la ruta de trekking! Acompañados por el guía y siguiendo sus indicaciones, ascenderemos entre misteriosas montañas, mientras nos topamos con animales andinos como alpacas, ovejas y vicuñas.<br><br> Después de una hora y media de caminata, llegaremos a la espectacular Montaña Arcoíris, también conocida como Vinicunca o la Montaña de los Siete Colores. Nada más verla, descubriréis por qué su majestuosidad la ha hecho merecedora de un puesto en la lista de los 100 lugares que se deben visitar antes de morir, según la revista National Geographic.<br><br> Después de recorrer la Montaña Arcoíris durante 50 minutos, emprenderemos el camino de vuelta hacia el minibús realizando otra ruta de trekking de hora y media de duración. ¡Por suerte, bajar es más fácil que subir!<br><br> Cuando estemos todos en el minibús, nos dirigiremos a un restaurante tradicional cercano donde disfrutaremos de una deliciosa comida de tipo buffet. ¡La mejor recompensa posible a las largas caminatas del día de hoy! Al concluir la comida, regresaremos en minibús al centro de Cusco, donde llegaremos a las 16:30 horas.</p>
+          </div>
+          <div class="col-12 col-lg-6 fondo-rojo color-blanco text-center px-3 px-sm-5 py-5 my-lg-5">
+            <h2 class="titulo-subtitulo-viaje mb-0">Protección</h2>
+            <h3 class="subtitulo-turi-ruta">para el turista</h3>
+            <p class="texto-ruta-turi mt-5 px-3">Órgano de Línea de segundo nivel organizacional, responsable de proponer y ejecutar la política regional de desarrollo y promoción de la artesanía; así como fomentar las exportaciones de los productos artesanales, su sigla es DART.</p>
+          </div>
+          <div class="col-12 col-lg-6 fondo-azul color-blanco px-3 px-sm-5 py-5 my-lg-5 text-center text-lg-left" >
+            <h2 class="titulo-subtitulo-viaje mb-0">Dificultad</h2>
+            <h3 class="subtitulo-turi-ruta">De ruta</h3>
+            <p class="texto-ruta-turi mt-5">La ruta que seguiremos es de dificultad alta. Recomendamos este tour exclusivamente para personas que no tengan problemas cardiacos. El tour se realiza a mucha altitud, alcanzando 5.200 metros aproximadamente. Aunque el recorrido es llano con pequeñas pendientes, dura aproximadamente 1 hora y 40 minutos y se nota la falta de oxígeno. Recomendamos tener un par de días de aclimatación en la ciudad de Cusco antes de realizar esta actividad.</p>
+          </div>
+          <div class="col-12 px-sm-5 mt-5 mt-lg-0">
+            <h2 class="color-05 titulo-subtitulo-viaje text-center text-md-left">Restricciones y requisitos</h2>
+            <ul class="list-unstyled texto-general color-81 mb-0">
+                <li>La edad mínima para participar en esta actividad es de 12 años.</li>
+                <li>No es apto para personas de movilidad reducida).</li>
+            </ul>
+            <p class="texto-general color-81">Alquiler de caballo<br>El día del tour podréis alquilar un caballo para facilitar parte del trayecto, lo cual tiene un precio extra aproximado de 22 dólares americanos. Sin embargo, una vez lleguéis a la cima, será imprescindible hacer parte del recorrido a pie (unos 15 minutos aproximadamente).</p>
+          </div>
+          <div class="col-12 px-sm-5 my-3">
+            <h2 class="color-05 titulo-subtitulo-viaje text-center text-md-left">Incluye</h2>
+            <ul class="list-unstyled texto-general color-81 mb-0">
+                <li>Recogida en el hotel y traslado de regreso al centro de Cusco.</li>
+                <li>Guía en español.</li>
+                <li>Transporte en minibús.</li>
+                <li>Entrada a la Montaña de Colores.</li>
+                <li>Desayuno y almuerzo tipo buffet.</li>
+                <li>Bastones para trekking.</li>
+                <li>Oxígeno de emergencia y equipo de primeros auxilios.</li>
+            </ul>
+          </div>
+          <div class="col-12 px-sm-5 my-3">
+            <h2 class="color-05 titulo-subtitulo-viaje text-center text-md-left">No incluye</h2>
+            <ul class="list-unstyled texto-general color-81 mb-0">
+                <li>Recogida en el hotel y traslado de regreso al centro de Cusco.     </li>
+                <li>Guía en español.</li>
+                <li>Transporte en minibús.</li>
+                <li>Entrada a la Montaña de Colores.</li>
+                <li>Desayuno y almuerzo tipo buffet.</li>
+                <li>Bastones para trekking.</li>
+                <li>Oxígeno de emergencia y equipo de primeros auxilios.</li>
+            </ul>
+          </div>
+          <div class="col-12 px-sm-5 my-3">
+            <h2 class="color-05 titulo-subtitulo-viaje text-center text-md-left">Preguntas frecuentes</h2>
+             <div class="accordion-container mt-3">
+                <a href="#" class="accordion-titulo py-2 px-4 my-2 text-capitalize">Inteligencia de mercados<span class="toggle-icon mt-n1"></span></a>
+                <div class="accordion-content py-3 px-4">
+                  <p>
+                     Optimizar y aprovechar las condiciones de acceso a los mercados nacionales e internacionales, con capital humano e identidad cultural. Promover la diversificación, competitividad y sostenibilidad de la oferta exportadora, turística y artesanal. Promover el posicionamiento de la imagen de la Región Cusco en los ámbitos de su competencia. La Dirección Regional de Comercio Exterior y Turismo, es la entidad líder, promotora de alianzas público – privadas, que posiciona a Cusco como región exportadora, turística y artesanal que contribuyen a la inclusión social y a mejorar los niveles de vida de la población; sectores que se han convertido en la base del desarrollo sostenible regional.
+                  </p>
+                </div>
+                <a href="#" class="accordion-titulo py-2 px-4 my-2 text-capitalize">Promocion comercial<span class="toggle-icon mt-n1"></span></a>
+                <div class="accordion-content py-3 px-4">
+                  <p>
+                     Optimizar y aprovechar las condiciones de acceso a los mercados nacionales e internacionales, con capital humano e identidad cultural. Promover la diversificación, competitividad y sostenibilidad de la oferta exportadora, turística y artesanal. Promover el posicionamiento de la imagen de la Región Cusco en los ámbitos de su competencia. La Dirección Regional de Comercio Exterior y Turismo, es la entidad líder, promotora de alianzas público – privadas, que posiciona a Cusco como región exportadora, turística y artesanal que contribuyen a la inclusión social y a mejorar los niveles de vida de la población; sectores que se han convertido en la base del desarrollo sostenible regional.
+                  </p>
+                </div>
+                <a href="#" class="accordion-titulo py-2 px-4 my-2 text-capitalize">Oferta exportable<span class="toggle-icon mt-n1"></span></a>
+                <div class="accordion-content py-3 px-4">
+                  <p>
+                     Optimizar y aprovechar las condiciones de acceso a los mercados nacionales e internacionales, con capital humano e identidad cultural. Promover la diversificación, competitividad y sostenibilidad de la oferta exportadora, turística y artesanal. Promover el posicionamiento de la imagen de la Región Cusco en los ámbitos de su competencia. La Dirección Regional de Comercio Exterior y Turismo, es la entidad líder, promotora de alianzas público – privadas, que posiciona a Cusco como región exportadora, turística y artesanal que contribuyen a la inclusión social y a mejorar los niveles de vida de la población; sectores que se han convertido en la base del desarrollo sostenible regional.
+                  </p>
+                </div>
+                <a href="#" class="accordion-titulo py-2 px-4 my-2 text-capitalize">Negociaciones y accesos al mercado<span class="toggle-icon mt-n1"></span></a>
+                <div class="accordion-content py-3 px-4">
+                  <p>
+                     Optimizar y aprovechar las condiciones de acceso a los mercados nacionales e internacionales, con capital humano e identidad cultural. Promover la diversificación, competitividad y sostenibilidad de la oferta exportadora, turística y artesanal. Promover el posicionamiento de la imagen de la Región Cusco en los ámbitos de su competencia. La Dirección Regional de Comercio Exterior y Turismo, es la entidad líder, promotora de alianzas público – privadas, que posiciona a Cusco como región exportadora, turística y artesanal que contribuyen a la inclusión social y a mejorar los niveles de vida de la población; sectores que se han convertido en la base del desarrollo sostenible regional.
+                  </p>
+                </div>
+                <a href="#" class="accordion-titulo py-2 px-4 my-2 text-capitalize">Porgramas de capacitacion<span class="toggle-icon mt-n1"></span></a>
+                <div class="accordion-content py-3 px-4">
+                  <p>
+                     Optimizar y aprovechar las condiciones de acceso a los mercados nacionales e internacionales, con capital humano e identidad cultural. Promover la diversificación, competitividad y sostenibilidad de la oferta exportadora, turística y artesanal. Promover el posicionamiento de la imagen de la Región Cusco en los ámbitos de su competencia. La Dirección Regional de Comercio Exterior y Turismo, es la entidad líder, promotora de alianzas público – privadas, que posiciona a Cusco como región exportadora, turística y artesanal que contribuyen a la inclusión social y a mejorar los niveles de vida de la población; sectores que se han convertido en la base del desarrollo sostenible regional.
+                  </p>
+                </div>
+                <a href="#" class="accordion-titulo py-2 px-4 my-2 text-capitalize">Herraminetas de Interaccion<span class="toggle-icon mt-n1"></span></a>
+                <div class="accordion-content py-3 px-4">
+                  <p>
+                     Optimizar y aprovechar las condiciones de acceso a los mercados nacionales e internacionales, con capital humano e identidad cultural. Promover la diversificación, competitividad y sostenibilidad de la oferta exportadora, turística y artesanal. Promover el posicionamiento de la imagen de la Región Cusco en los ámbitos de su competencia. La Dirección Regional de Comercio Exterior y Turismo, es la entidad líder, promotora de alianzas público – privadas, que posiciona a Cusco como región exportadora, turística y artesanal que contribuyen a la inclusión social y a mejorar los niveles de vida de la población; sectores que se han convertido en la base del desarrollo sostenible regional.
+                  </p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 col-lg-3 text-center px-5 px-md-3 py-5 cuadro-derecha mt-md-5 mt-xl-0 sticky-top" style="background-color: #fff;">
+        <h5 class="color-05 my-3" id="verificar-text">Verifique si califica</h5>
+        <input class="py-2 my-3 text-center" id="input-number" type="number" name="number" placeholder="Ingrese du n de DNI aqui"><br>
+        <button class="btn fondo-azul color-blanco texto-ruta-turi px-4 btn-radius my-3">Verificar</button>
+        <h5 class="subtitulo-intenerario color-05 mt-5">Proximas salidas</h5>
+        <p class="text-center my-3" style="color: #3E729A">Viernes<span class="px-1">-</span>23.09.9019<a class="ml-3" href=""><i class="fa fa-angle-right"></i></a></p>
+        <p class="text-center my-3" style="color: #3E729A">Viernes<span class="px-1">-</span>23.09.9019<a class="ml-3" href=""><i class="fa fa-angle-right"></i></a></p>
+        <p class="text-center my-3" style="color: #3E729A">Viernes<span class="px-1">-</span>23.09.9019<a class="ml-3" href=""><i class="fa fa-angle-right"></i></a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer-fondo pt-5">
+      <div class="container pt-5">
+        <div class="row m-0">
+          <div class="col-6 col-md-6 col-lg-3 col-xl-2 offset-3 offset-md-3 offset-lg-0 pl-4">
+            <img src="assets/imagenes/logoblanco.png" width="100%" height="100%">
+          </div>
+          <div class="col-12 mt-2">
+            <div class="row m-0">
+               <div class="col-12 col-lg-3 pl-1 pr-0 text-center text-lg-left py-1 py-lg-0">
+                <div class="row m-0">
+                  <div class="col-12">
+                    <p class="titulo-footer">Contacto</p>
+                  </div>
+                  <div class="col-12 color-letra-footer mt-0">
+                    <span><i class="fa fa-phone"></i> +51 (84) 223 761</span>
+                  </div>
+                  <div class="col-12 color-letra-footer">
+                    <span><i class="fa fa-map-marker"></i> Plaza Tupac Amaru Mz. Lot 2</span>
+                  </div>
+                  <div class="col-12 my-3 my-0">
+                    <img src="assets/imagenes/mapa.png" width="100%" height="105%">
+                  </div>
+                </div>
+               </div>
+               <div class="col-12 col-lg-6 pl-xl-3 text-center text-lg-left py-0 py-lg-0">
+                 <div class="row m-0">
+                   <div class="col-12 pl-xl-5">
+                     <p class="titulo-footer">Vínculos importantes</p>
+                   </div>
+                   <div class="col-md-6 pl-lg-3 pl-xl-5 pr-xl-2">
+                     <ul class="list-unstyled">
+                       <li class=""><a class="color-letra-footer" href="">Dircetur</a></li>
+                       <li ><a class="color-letra-footer" href="">Servicios turísticos</a></li>
+                       <li ><a class="color-letra-footer" href="">Turismo</a></li>
+                       <li><a class="color-letra-footer" href="">Comercio exterior</a></li>
+                       <li ><a class="color-letra-footer" href="">Artesanía</a></li>
+                       <li><a class="color-letra-footer" href="">Boleto turistico</a></li>
+                       <li ><a class="color-letra-footer" href="">Noticias</a></li>
+                       <li ><a class="color-letra-footer" href="">Eventos</a></li>
+                       <li><a class="color-letra-footer" href="">Proyecto especiales</a></li>
+                     </ul>
+                   </div>
+                   <div class="col-md-6 mt-0 pl-xl-2">
+                    <ul class="list-unstyled">
+                       <li ><a class="color-letra-footer" href="">Rutas sugeridas</a></li>
+                       <li ><a class="color-letra-footer" href="">Calendario</a></li>
+                       <li ><a class="color-letra-footer" href="">Ingreso de agremiados</a></li>
+                       <li ><a class="color-letra-footer" href="">Comunicacion</a></li>
+                       <li ><a class="color-letra-footer" href="">Vijes programados</a></li>
+                       <li ><a class="color-letra-footer" href="">Contacto</a></li>
+                     </ul>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-12 col-lg-3 py-5 py-lg-0 text-center text-lg-left">
+                 <p class="titulo-footer">Redes sociales</p>
+                 <img class="mt-3" src="assets/imagenes/fb.jpg" width="100%" height="80%">
+               </div>
+               <div class="col-12 col-lg-10 offset-lg-1 mt-5">
+                <div id="linea-footer"></div>
+                 <div class="row m-0">
+                   <div class="col-12 col-md-4 col-lg-4 col-xl-3 pl-0 px-0 text-center text-md-left">
+                     <p style="font: Heavy 20px/27px Avenir;letter-spacing: 0;color: #959595;opacity: 1;font-weight: 700;">DIRCETUR CUSCO - 2019.</p>
+                   </div>
+                   <div  class="col-12 col-md-5 col-lg-4 col-xl-3 offset-md-3 offset-lg-4 offset-xl-6 pl-0 pr-0 text-center text-md-right ">
+                     <p style="font: Heavy 19px/26px Avenir;letter-spacing: 0;color: #959595;opacity: 1;font-weight: 700;">Desarrollado por<span style="color: #BCBCBC"> PuntoPro</span></p>
+                   </div>
+                 </div>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</footer>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/propio.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/amazingslider.js"></script>
+    <script src="assets/js/initslider-1.js"></script>
+    <script>
+     /* $(document).on("scroll", function(){
+        //sacamos el desplazamiento actual de la página
+        var desplazamientoActual = $(document).scrollTop();
+        if ($( window ).width()>=1200) {
+
+            if (desplazamientoActual > 400) {
+               $('.cuadro-derecha').addClass('position-fixed');
+               $('.cuadro-derecha').addClass('col-lg-3');
+            }else{
+               $('.cuadro-derecha').removeClass('position-fixed');
+               $('.cuadro-derecha').removeClass('col-lg-3');
+            }
+
+        }
+    });*/
+
+    </script>
+</body>
+</html>
